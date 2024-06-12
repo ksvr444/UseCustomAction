@@ -3,7 +3,7 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hel
+    name: A job to say he
     steps:
       - uses: actions/checkout@v4
       - id: foo
